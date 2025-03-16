@@ -43,7 +43,7 @@ public class DetailsPizzaActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuItem shareItem = menu.add(0, 1, 0, "Share");
-        shareItem.setIcon(ContextCompat.getDrawable(this, R.mipmap.share));
+
         shareItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         shareItem.setOnMenuItemClickListener(item -> {
